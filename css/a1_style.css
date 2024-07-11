@@ -13,13 +13,17 @@ header {
     padding: 20px;
     background-color: antiquewhite;
 }
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
 ul {
     list-style-type: none;
     background-color: #333;
     margin: 0;
     padding-left: 10;
     overflow: hidden;
-    position: sticky;
 }
 li {
     float: left;
@@ -38,13 +42,32 @@ li a:hover {
 .active {
     background-color: red;
 }
+.bgVideo {
+    height: 623px;
+    margin: 0 auto;
+}
 .new {
-    height: 400px;
+    align-content: center;
+    font-size: large;
+    color: white;
+    background-image: url(../img/insideOut2.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 .slideContent {
     height: 300px;
     background-color: wheat;
     text-align: center;
+}
+.film p {
+    float: left;
+    padding: 80px 40px;
+    margin: 10px;
+    background-color: burlywood;
+    grid-area: myArea;
 }
 .content {
     height: 200px;
@@ -52,8 +75,10 @@ li a:hover {
 }
 .con {
     float: left;
-    width: 33.33%;
-    border: 0 solid;
+    width: 200px;
+    height: 150px;
+    margin: 25px auto;
+    border: 1px solid;
 }
 footer {
     height: 100px;

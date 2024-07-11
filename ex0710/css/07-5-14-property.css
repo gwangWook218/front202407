@@ -1,0 +1,29 @@
+[target] {
+    background: #00c;
+    color: #fff;
+}
+[target=_blank] {
+    background: #c00;
+    color: #fff;
+}
+[title~="웹(Web)"] {
+    background: #000;
+    color: #fff;
+}
+[lang|=en] {
+    background: #cc3;
+    text-decoration: underline;
+}
+a[href^="https"] {
+    background: #00c;
+    color: #fff;
+}
+a[href$="com/"] {
+    background: #0c0;
+    color: #fff;
+    text-decoration: overline;
+}
+a[href*="tjoeun"] {
+    background: #0cc;
+    color: #000;
+}

@@ -1,0 +1,7 @@
+body {text-align: center;}
+header, main, main section, footer {width: 100%;}
+header h1 {height: 50px; background: #8cc;}
+header nav {height: 70px; background: #ccc;}
+header aside {height: 50px; background: #c9c;}
+main section article {height: 100px; background: #c99;}
+footer {height: 100px; background: #9c9;}

@@ -1,0 +1,8 @@
+table {
+    border-collapse: collapse;
+    margin: 50px auto;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 15px 30px;
+}

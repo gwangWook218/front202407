@@ -1,0 +1,45 @@
+div {
+    background-color: wheat;
+    margin: 20px;
+}
+p {
+    width: 300px;
+    background-color: aqua;
+}
+
+
+.p1 {
+    text-align: center;
+}
+.p2 {
+    text-align: left;
+}
+.p3 {
+    text-align: right;
+}
+
+
+.d1 {
+    direction: ltr;
+}
+.d2 {
+    direction: rtl;
+}
+
+
+
+.img1 {
+    vertical-align: baseline;
+}
+.img2 {
+    vertical-align: text-top;
+}
+.img3 {
+    vertical-align: text-bottom;
+}
+.img4 {
+    vertical-align: sub;
+}
+.img5 {
+    vertical-align: super;
+}

@@ -1,0 +1,13 @@
+body {background-color: powderblue;}
+
+/*************************
+   주의: 실행되지 않는부분
+   여기에 설명이나,
+   전달사항을 작성함 
+*************************/
+h1 {color: rgb(33, 78, 79);}
+
+p {
+    color: rgb(209, 39, 7);
+    border: 2px solid yellowgreen;
+}

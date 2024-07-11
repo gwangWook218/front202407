@@ -1,0 +1,15 @@
+
+p {
+    color: yellow;
+    background-color: blue;
+    text-align: center;
+}
+.m1 {
+    margin: 20px;
+}
+.m2 {
+    margin: 10px 30px;
+}
+.m3 {
+    margin: 10px 30px 50px 70px;
+}

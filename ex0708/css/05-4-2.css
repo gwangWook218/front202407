@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+}
+header {
+    background-color: #9cc;
+    height: 100px;
+    width: 100%;
+}
+main {
+    width: 100%;
+}
+main section {
+    background-color: #c99;
+    height: 180px;
+    width: 100%;
+}
+footer {
+    background-color: #9c9;
+    height: 100px;
+    width: 100%;
+}

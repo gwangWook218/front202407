@@ -1,0 +1,15 @@
+table {
+    width: 100%;
+    border-spacing: 10px;
+}
+table, th, td {
+    border: 1px solid rgb(255, 255, 255);
+}
+th, td {
+    background-color: rgb(194, 174, 109);
+    padding: 10px;
+    border-radius: 10px;
+}
+tr {
+    height: 70px;
+}

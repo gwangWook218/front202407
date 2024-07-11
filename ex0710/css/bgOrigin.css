@@ -1,0 +1,20 @@
+#example1 {
+    border: 5px solid;
+    padding: 35px;
+    background: url(../img/img_flwr.gif);
+    background-repeat: no-repeat;
+}
+#example2 {
+    border: 5px solid;
+    padding: 35px;
+    background: url(../img/img_flwr.gif);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}
+#example3 {
+    border: 5px solid;
+    padding: 35px;
+    background: url(../img/img_flwr.gif);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}

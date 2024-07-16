@@ -1,0 +1,26 @@
+.wrapper {
+    overflow: auto;
+}
+h1, p {
+    margin-left: 4px;
+}
+#leftsidebar {
+    float: none;
+    width: auto;
+}
+#menulist {
+    margin: 0;
+    padding: 0;
+}
+.menuitem {
+    list-style-type: none;
+    background-color: #cdf0f6;
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+    margin: 4px;
+    padding: 2px;
+}
+@media screen and (min-width:480px) {
+    #leftsidebar {width: 200px; float: left;}
+    h1, p {margin-left: 216px;}
+}

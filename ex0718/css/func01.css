@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap {
+    width: 800px;
+    height: 600px;
+    background-color: rgb(143, 255, 255);
+    margin: 0 auto;
+}

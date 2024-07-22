@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>버튼 이벤트</h2>
+
+    <h2 onclick="this.innerHTML = 'Ooops!'">Click on this text!</h2>
+
+    <h2 onclick="change(this)">Click on this text!</h2>
+
+    <p>Click the button to display the date.</p>
+    <button onclick="displayDate()">This time is?</button>
+    <p id="demo"></p>
+
+    <div onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color: red; width: 120px; height: 20px; padding: 40px;">
+        Mouse Over Me
+    </div>
+
+    <script src="./js/exJsEvents.js"></script>
+</body>
+</html>

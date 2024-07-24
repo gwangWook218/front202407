@@ -26,6 +26,16 @@ header {
     width: 800px;
     height: 100px;
     background-color: yellowgreen;
+    text-align: center;
+}
+table {
+    border: 1px solid;
+}
+th {
+    padding: 0 50px;
+}
+.mainMenu {
+    border-bottom: 1px solid;
 }
 
 .slideContent {

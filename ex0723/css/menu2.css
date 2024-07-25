@@ -7,29 +7,30 @@ nav {
     float: left;
     width: 1000px;
     height: 100px;
-    padding: 30px 30px 0 0;
+    padding: 60px 100px 0 0;
 }
 .mainmenu {
     float: right;
-    background-color: #777;
 }
 .menu {
     float: left;
 }
 .menu>a, .submenu>li>a {
     display: block;
-    width: 100px;
+    width: 150px;
     height: 40px;
     text-align: center;
     align-content: center;
-    font-weight: bold;
-    background-color: #7dce83;
+}
+.submenu>li>a {
+    background-color: yellowgreen;
+    color: #fff;
 }
 .menu>a:hover {
-    background-color: yellow;
-    color: red;
+    background-color: rebeccapurple;
+    color: #fff;
 }
 .submenu>li>a:hover {
-    background-color: yellowgreen;
-    color: rebeccapurple;
+    background-color: #fff;
+    color: inherit;
 }

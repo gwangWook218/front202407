@@ -1,0 +1,35 @@
+.logo>img {
+    padding: 30px;
+}
+nav {
+    float: right;
+    text-align: center;
+}
+.mainmenu {
+    width: 640px;
+    margin: -75px 30px 0 0;
+}
+.menu {
+    float: left;
+    width: 160px;
+    position: relative;
+    transition: all 0.4s;
+}
+.submenu {
+    width: 160px;
+    position: absolute;
+    display: none;
+    z-index: 2;
+}
+.menu, .submenu>li {
+    background-color: #31699e;
+    padding: 10px 0;
+}
+.menu:hover {
+    background-color: yellow;
+    color: #1b7c3b;
+}
+.submenu>li:hover {
+    background-color: yellowgreen;
+    color: #599b3a;
+}

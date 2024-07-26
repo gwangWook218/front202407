@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOM History</title>
+</head>
+<body style="background-color: yellow;">
+    <h2>브라우저 경로 History2로가기 버튼</h2>
+    <input type="button" value="History2로가기" onclick="goHistory2()">
+
+    <h2>브라우저 경로 뒤로가기 버튼</h2>
+    <input type="button" id="btn" value="이전" onclick="goBack()">
+
+    <h2>브라우저 경로 앞으로가기 버튼</h2>
+    <input type="button" id="btn2" value="다음" onclick="goForward()">
+
+    <h2>브라우저 [A:쿠키 사용가능 여부] [B:앱코드이름] [C:플랫폼]</h2>
+    <input type="button" id="btn3" value="[A:쿠키 사용가능 여부] [B:앱코드이름] [C:플랫폼]" onclick="enCookie()">
+    <div id="output"></div>
+
+    <script src="./js/bomHistory.js"></script>
+</body>
+</html>

@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>layout</title>
-    <link rel="stylesheet" href="./css/a1_style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/menu.js"></script>
 </head>
 <body>
     <div class="wrap">
@@ -12,15 +16,44 @@
             <div class="logo"><img src="./img/logoRed.png" alt=""></div>
         </header>
         <nav>
-            <div class="menu">
-                <ul>
-                    <li><a href="#">영화</a></li>
-                    <li><a href="#">영화관</a></li>
-                    <li><a href="./reserve.html">예매</a></li>
-                    <li><a href="#">스토어</a></li>
-                    <li style="float: right;"><a class="active" href="./login.html">로그인</a></li>
-                </ul>
-            </div>
+            <ul class="mainmenu">
+                <li class="menu">
+                    <a href="#">영화</a>
+                    <ul class="submenu">
+                        <li><a href="#">무비차트</a></li>
+                        <li><a href="#">최신 개봉작</a></li>
+                        <li><a href="#">개봉 예정작</a></li>
+                        <li><a href="#">보고 싶은 영화</a></li>
+                    </ul>
+                </li>
+                <li class="menu">
+                    <a href="#">예매</a>
+                    <ul class="submenu">
+                        <li><a href="#">예매 안내</a></li>
+                        <li><a href="#">빠른 예매</a></li>
+                        <li><a href="#">상영시간표</a></li>
+                        <li><a href="#">예매 확인/취소</a></li>
+                    </ul>
+                </li>
+                <li class="menu">
+                    <a href="#">스토어</a>
+                    <ul class="submenu">
+                        <li><a href="#">패키지</a></li>
+                        <li><a href="#">기프티콘</a></li>
+                        <li><a href="#">영화관람권</a></li>
+                        <li><a href="#">Special</a></li>
+                    </ul>
+                </li>
+                <li class="menu">
+                    <a href="#">혜택</a>
+                    <ul class="submenu">
+                        <li><a href="#">할인정보</a></li>
+                        <li><a href="#">VIP 멤버십</a></li>
+                        <li><a href="#">이벤트</a></li>
+                    </ul>
+                </li>
+                <li style="float: right;"><a class="active" href="./login.html">로그인</a></li>
+            </ul>
         </nav>
         <div id="container">
             <div class="bgVideo">
@@ -35,7 +68,7 @@
                 <div class="contents">
                     <div class="movieChart">
                         <div class="tabBtn_wrap">
-                            <h3><a href="#none">절찬 개봉작</a></h3>
+                            <h3><a href="#none">최신 개봉작</a></h3>
                             <h3><a href="#none">상영 예정작</a></h3>
                         </div>
                     </div>

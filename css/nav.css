@@ -1,0 +1,41 @@
+nav {
+    height: 49px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #333;
+}
+ul {
+    list-style-type: none;
+}
+.mainmenu {
+    background-color: #333;
+    margin: 0;
+    padding-left: 10;
+    overflow: hidden;
+}
+.menuSlide {
+    width: 612px;
+    height: 49px;
+}
+.menu {
+    float: left;
+    width: 140px;
+}
+li>a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+}
+li a:hover {
+    background-color: #111;
+}
+.submenu a:hover {
+    background-color: #111;
+    text-decoration: underline;
+}
+.active {
+    background-color: red;
+}

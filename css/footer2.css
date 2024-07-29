@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer {
+    width: 1200px;
+    height: 100px;
+    background-color: rgb(253, 219, 186);
+    margin: 0 auto;
+}
+.inner {
+    width: 1200px;
+    align-items: center;
+}
+.footerLogo {
+    float: left;
+    height: 100px;
+    padding: 30px;
+}
+p {
+    float: left;
+    width: 740px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.sns {
+    float: left;
+    width: 200px;
+    height: 100px;
+    list-style-type: none;
+    align-content: center;
+}
+li a img {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}

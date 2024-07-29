@@ -10,7 +10,7 @@ $("#delDiv2").click(function () {
     $(".del").hide();
 });
 
-$("#dblclick").dblclick(function (e) { 
+$("#dblclick").dblclick(function () { 
     $(this).hide();
 });
 

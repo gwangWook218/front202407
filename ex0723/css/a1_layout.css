@@ -31,6 +31,7 @@ li {
 .nav {
     width: 800px;
     height: 100px;
+    z-index: 600;
 }
 .nav>ul {
     float: right;
@@ -55,9 +56,15 @@ li {
     color: rebeccapurple;
 }
 
-.slideContent {
+.slide {
     height: 300px;
-    background-color: #ff8080;
+    position: relative;
+    overflow: hidden;
+}
+.slideContent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 .content {
@@ -68,6 +75,24 @@ li {
 .con1, .con3 {
     width: 33.33%;
     background-color: yellowgreen;
+}
+.con1 {
+    overflow: hidden;
+}
+.tabMenu {
+    display: flex;
+    background-color: #ffffff;
+}
+.tabMenu>li {
+    padding: 10px;
+}
+.on {
+    background-color: rgb(66, 55, 224);
+    color: #fff;
+}
+.notice_on {
+    width: 380px;
+    background-color: #fff;
 }
 .con2 {
     width: 33.33%;

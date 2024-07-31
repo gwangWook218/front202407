@@ -1,0 +1,51 @@
+.con1 {
+    background-color: #fff;
+}
+.tabMenu {
+    height: 40px;
+    background-color: #ffffff;
+}
+.tabMenu>li {
+    float: left;
+    padding: 9.5px;
+}
+.on a {
+    background-color: rgb(66, 55, 224);
+    color: #fff;
+}
+.tabItem {
+    height: 160px;
+    background-color: lightblue;
+}
+.notice_on {
+    width: 380px;
+    height: 150px;
+    background-color: #fff;
+    margin: auto;
+}
+.notice_on>li>a>span:first-child {
+    display: inline-block;
+    width: 280px;
+    height: 35px;
+    line-height: 35px;
+}
+.notice_on>li>a>span:nth-child(2) {
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+}
+.gallery {
+    display: block;
+    width: 400px;
+    height: 150px;
+    padding: 25px;
+}
+.gallery>li {
+    float: left;
+    margin-right: 15px;
+}
+.gallery>li>a>img {
+    width: 100px;
+    height: 100px;
+}

@@ -8,24 +8,18 @@
     width: 1000px;
     height: 650px;
     margin: 0;
-    display: flex;
 }
 
 header {
+    align-items: center;
     width: 200px;
     height: 650px;
-    background-color: rgb(147, 218, 106);
-
+    background-color: #fee1ff;
 }
 .logo {
     width: 200px;
     height: 60px;
-    background-color: aquamarine;
-}
-.nav {
-    width: 200px;
-    height: 100px;
-    background-color: darkgreen;
+    padding-top: 10px;
 }
 
 .main {
@@ -50,29 +44,4 @@ header {
 .con2 {
     width: 33.33%;
     background-color: pink;
-}
-
-footer {
-    height: 100px;
-    background-color: lightblue;
-    display: flex;
-    align-items: center;
-}
-.f1 {
-    width: 620px;
-    height: 50px;
-    background-color: lightgray;
-}
-
-.f_right {
-    width: 180px;
-    height: 100px;
-}
-.f2{
-    height: 50%;
-    background-color: yellow;
-}
-.f3{
-    height: 50%;
-    background-color: rgb(211, 148, 148);
 }

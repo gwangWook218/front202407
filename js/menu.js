@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(function () {
     $('.menu').hover(function () {
             // over
             $('.submenu').stop().slideDown(500);

@@ -1,35 +1,32 @@
-.logo>img {
-    padding: 30px;
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
 }
 nav {
-    float: right;
+    width: 200px;
     text-align: center;
 }
-.mainmenu {
-    width: 640px;
-    margin: -75px 30px 0 0;
+nav ul a {
+    display: block;
+    text-align: center;
+    padding: 10px;
 }
 .menu {
-    float: left;
-    width: 160px;
     position: relative;
-    transition: all 0.4s;
+}
+.menu:hover>a {
+    background-color: #ff50ff;
+    color: #fff;
 }
 .submenu {
-    width: 160px;
-    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    z-index: 998;
     display: none;
-    z-index: 2;
 }
-.menu, .submenu>li {
-    background-color: #31699e;
-    padding: 10px 0;
-}
-.menu:hover {
-    background-color: yellow;
-    color: #1b7c3b;
-}
-.submenu>li:hover {
-    background-color: yellowgreen;
-    color: #599b3a;
+.submenu li:hover a {
+    background-color: #ffcbff;
 }

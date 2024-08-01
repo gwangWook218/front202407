@@ -1,0 +1,228 @@
+/* ----------공통---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+li {
+    list-style: none;
+}
+
+/* ----------헤더---------- */
+header {
+    display: flex;
+    height: 100px;
+}
+.logo, .f1 {
+    width: 200px;
+    align-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.logo>a, .f1>a {
+    color: rgb(26, 153, 26);
+}
+nav {
+    width: 1000px;
+}
+nav>ul {
+    display: flex;
+    float: right;
+    margin: 59px 100px 0 0;
+}
+nav ul a {
+    width: 120px;
+    display: block;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+}
+.menu {
+    position: relative;
+}
+.submenu {
+    position: absolute;
+    display: none;
+    z-index: 9;
+}
+.submenu a {
+    background-color: yellowgreen;
+    color: #fff;
+}
+.menu:hover>a {
+    background-color: rebeccapurple;
+    color: #fff;
+}
+.submenu li:hover a {
+    background-color: #fff;
+    color: #333;
+}
+.subback {
+    position: absolute;
+    display: none;
+    width: 1200px;
+    height: 125px;
+    top: 100px;
+    background-color: yellowgreen;
+    z-index: 8;
+}
+
+/* ----------이미지슬라이드---------- */
+.slide {
+    width: 1200px;
+    height: 300px;
+    overflow: hidden;
+}
+.imgslide {
+    width: 3600px;
+}
+.imgslide>li {
+    float: left;
+}
+.imgslide img {
+    width: 1200px;
+    height: 300px;
+    display: block;
+}
+
+/* ----------컨텐츠---------- */
+.contents {
+    display: flex;
+    height: 200px;
+}
+.con1, .con2, .con3 {
+    width: 400px;
+}
+
+/* ----------공지사항---------- */
+.tabMenu, .tabGallery {
+    position: relative;
+    width: 100px;
+    height: 20%;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: yellowgreen;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    z-index: 2;
+}
+.notice {
+    position: relative;
+    height: 161px;
+    background-color: #fff;
+    background-color: yellowgreen;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    top: -1px;
+}
+.notice li>* {
+    margin: 10px 0;
+    text-align: center;
+}
+.notice li a {
+    float: left;
+    width: 80%;
+}
+.notice li span {
+    float: right;
+    width: 20%;
+}
+
+/* ----------갤러리---------- */
+.gallery {
+    position: relative;
+    height: 161px;
+    padding: 30px 0 0 40px;
+    background-color: yellowgreen;
+    border: 1px solid;
+    top: -1px;
+}
+.gallery>a>img {
+    width: 100px;
+    height: 100px;
+}
+
+/* ----------배너---------- */
+.con3 {
+    background-color: cadetblue;
+    position: relative;
+}
+.banner {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    align-content: center;
+    text-align: center;
+    background-color: #fff;
+    z-index: 10;
+    transform: translate(150%, 150%);
+}
+.con3>img {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+}
+
+/* ----------푸터---------- */
+footer {
+    display: flex;
+    height: 100px;
+}
+.f1, .f3 {
+    width: 200px;
+    background-color: rgb(240, 240, 240);
+}
+.f2 {
+    width: 800px;
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    align-content: center;
+}
+.f3 {
+    align-content: center;
+}
+#familySite {
+    margin-left: 25px;
+}
+
+/* ---------팝업창------------ */
+.modal {
+    background-color: rgba(0, 0, 0, 0.301);
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+    top: 0;
+
+}
+.modalcontent {
+    background-color: #fff;
+    width: 500px;
+    height: 300px;
+    margin: 200px auto;
+    text-align: center;
+}
+.modalcontent h2 {
+    padding: 10px 0;
+}
+.modalcontent p {
+    padding: 80px 0;
+}
+.modalcontent button {
+    width: 100px;
+    height: 30px;
+}

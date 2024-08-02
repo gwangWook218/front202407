@@ -213,6 +213,7 @@ footer {
     background-color: #fff;
     width: 500px;
     height: 300px;
+    border-radius: 8px;
     margin: 200px auto;
     text-align: center;
 }

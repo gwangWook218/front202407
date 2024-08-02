@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap {
+    width: 1000px;
+    height: 650px;
+    margin: 0;
+}
+.container {
+    float: left;
+    width: 800px;
+    height: 650px;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+li {
+    list-style: none;
+}
+
+/* Header */
+header {
+    float: left;
+    width: 200px;
+    height: 100%;
+    background-color: #f5dbb9;
+}
+header>.logo {
+    height: 100px;
+    align-content: center;
+    background-color: #b9fca4;
+}
+nav {
+    text-align: center;
+}
+nav>ul {
+    margin-top: 30px;
+}
+nav ul a {
+    display: block;
+    padding: 10px;
+}
+.menu {
+    transition: all 0.3s;
+}
+.menu:hover>a {
+    background-color: yellow;
+}
+.submenu {
+    display: none;
+    background-color: #fff;
+    z-index: 100;
+}
+.submenu>li:hover a {
+    background-color: #c4ff4f;
+}
+
+/* Slide */
+.slide {
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+}
+.slide img {
+    width: 800px;
+    height: 350px;
+    position: absolute;
+}
+
+/* Contents */
+.contents {
+    height: 200px;
+    background-color: #a4fcde;
+}
+.contents>* {
+    float: left;
+    width: 33.33%;
+    height: 200px;
+}
+.tabMenu {
+    height: 20%;
+    text-align: center;
+}
+.tabMenu>li {
+    position: relative;
+    float: left;
+    width: 80px;
+    height: 100%;
+    align-content: center;
+    background-color: #ffffff;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+.tabMenu .on {
+    position: relative;
+    background-color: #8ad4bc;
+    z-index: 2;
+}
+.tabItem {
+    position: relative;
+    height: 161px;
+    background-color: #8ad4bc;
+    border: 1px solid;
+    top: -1px;
+}
+.notice {
+    height: 100%;
+    text-align: center;
+}
+.notice li {
+    display: flex;
+    line-height: 2.5;
+}
+.notice li span {
+    width: 72px;
+}
+.gallery {
+    display: none;
+    height: 100%;
+    align-content: center;
+    margin-left: 5px;
+}
+.gallery li {
+    display: inline-block;
+    align-content: center;
+    width: 31%;
+}
+.gallery img {
+    width: 100%;
+}
+.banner img, .barogagi img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Footer */
+footer {
+    height: 100px;
+    background-color: rgb(196, 255, 255);
+}
+footer>* {
+    float: left;
+    height: 100px;
+}
+footer>.logo {
+    width: 20%;
+    align-content: center;
+    background-color: rgb(241, 177, 241);
+}
+footer>.logo img {
+    width: 160px;
+}
+.fRight {
+    width: 80%;
+    text-align: center;
+    background-color: rgb(255, 216, 250);
+}
+.fRight>* {
+    height: 50%;
+    align-content: center;
+}
+
+/* Popup */
+.modal {
+    background-color: rgba(0, 0, 0, 0.363);
+    z-index: 998;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.modalcontent {
+    background-color: #fff;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 350px;
+    border: 1px solid #ff8500;
+}
+.modalcontent h2 {
+    padding: 10px 0;
+}
+.modalcontent p {
+    padding: 135px 0;
+}
+.modalcontent button {
+    width: 100px;
+    height: 30px;
+}
